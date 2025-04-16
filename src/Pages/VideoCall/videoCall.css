@@ -1,0 +1,70 @@
+.share-icon-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 9%;
+  left: 7%;
+  z-index: 10;
+}
+
+.share-icon {
+  font-size: 2rem;
+  color: #4a6cf7;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+.share-icon:hover {
+  color: #2541b2;
+}
+
+.myCallContainer {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+.copy-feedback {
+  margin-left: 10px;
+  color: #28a745;
+  font-size: 1rem;
+  background: #eafbe7;
+  border-radius: 4px;
+  padding: 2px 8px;
+  animation: fadeInOut 2s;
+}
+
+/* videoCall.css */
+.video-call-controls {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 15px;
+  z-index: 1000; /* Z-index değerini artırdım */
+  background: rgba(0, 0, 0, 0.7);
+  padding: 12px 24px;
+  border-radius: 50px;
+  backdrop-filter: blur(10px);
+}
+
+/* ZegoCloud dialog kutusu için özel stil */
+.zego-leave-room-dialog {
+  z-index: 1001 !important; /* Dialog'un üstte görünmesini sağlar */
+}
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
