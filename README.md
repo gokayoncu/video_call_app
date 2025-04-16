@@ -4,7 +4,7 @@ Bu proje Vite ve React ile geliştirilmiş bir video arama uygulamasıdır.
 
 ## Canlı Demo
 
-Uygulamayı canlı olarak deneyebilirsiniz: [https://sage-arithmetic-c10a8.netlify.app/](https://sage-arithmetic-c10a8.netlify.app/)
+Uygulamayı canlı olarak deneyebilirsiniz: (https://sage-arithmetic-c10a18.netlify.app/)
 
 ## Proje Kurulumu
 
